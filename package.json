@@ -1,0 +1,47 @@
+{
+  "name": "react-dragger",
+  "version": "1.0.0",
+  "description": "module to createdraggable elements",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=webpack.config.prod.js",
+    "start": "BABEL_ENV=development webpack-dashboard -- webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fes300/react-dragger.git"
+  },
+  "keywords": [
+    "react",
+    "drag",
+    "drop",
+    "drag&drop",
+    "RxJs"
+  ],
+  "author": "fes300",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fes300/react-dragger/issues"
+  },
+  "homepage": "https://github.com/fes300/react-dragger#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "rxjs": "^5.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "next",
+    "@babel/preset-env": "next",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.8.1",
+    "webpack-dashboard": "^1.0.0",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
